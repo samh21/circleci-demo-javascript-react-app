@@ -4,7 +4,7 @@ const Cards = ({ cards }) => {
     console.log({cards})
 
     return (
-        <div class="row">
+        <div className="row">
        {cards.map((card) => (
             <span>
                 { card.data.crosspost_parent == null && card.data.media == null ? 
